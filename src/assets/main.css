@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+li {
+	list-style-type: none;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+li a {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #cccccc;
+	margin: 0;
+}
+li a:hover {
+	color: #00d6b4;
+	transition: all 0.3s;
+}
