@@ -41,6 +41,7 @@ export default {};
 	text-align: center;
 	color: #ffffff;
 	margin-bottom: 33px;
+	margin-top: 33px;
 }
 .image {
 	display: flex;
@@ -51,6 +52,14 @@ export default {};
 	gap: 20px;
 	display: flex;
 	flex-wrap: wrap;
+}
+img {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+img:hover {
+	opacity: 1;
 }
 @media (max-width: 1177px) {
 	.img {

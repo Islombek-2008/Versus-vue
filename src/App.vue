@@ -36,11 +36,12 @@ header {
 	width: 100%;
 	height: 540px;
 	background-image: url(./img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 72px;
 }
 /* navbar */
 nav {
@@ -50,14 +51,15 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 23px 0;
-	background: rgba(0, 96, 119, 0.02);
-	backdrop-filter: blur(29px);
+	padding: 15px 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
 }
 nav a h1 {
 	font-weight: 400;
-	font-size: 24px;
-	color: #ffffff;
+	font-size: 34px;
+	color: white;
 }
 nav ul {
 	display: flex;

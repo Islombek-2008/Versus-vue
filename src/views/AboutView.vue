@@ -34,6 +34,7 @@ export default {};
 	width: 100%;
 	background-color: #222222;
 	padding-bottom: 45px;
+	padding-top: 33px;
 }
 h1 {
 	font-style: normal;
@@ -42,16 +43,17 @@ h1 {
 	line-height: 30px;
 	text-align: center;
 	color: #ffffff;
+	margin-bottom: 33px;
 }
 .about-info {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin-top: 33px;
 	margin: 10px;
 }
 img {
 	width: 370px;
+	margin: 10px;
 }
 p {
 	width: 450px;
@@ -59,5 +61,6 @@ p {
 	color: azure;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	line-height: 20px;
+	margin: 10px;
 }
 </style>

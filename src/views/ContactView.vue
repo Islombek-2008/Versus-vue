@@ -28,6 +28,7 @@ export default {};
 .contact {
 	width: 100%;
 	padding-bottom: 45px;
+	padding-top: 33px;
 	background-color: #222222;
 }
 h1 {
