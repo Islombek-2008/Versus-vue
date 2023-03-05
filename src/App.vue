@@ -45,13 +45,13 @@ header {
 }
 /* navbar */
 nav {
+	width: 100%;
+	height: 70px;
 	position: fixed;
 	top: 0;
-	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 15px 0;
 	background-color: black;
 	opacity: 0.5;
 	z-index: 1;

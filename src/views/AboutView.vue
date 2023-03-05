@@ -36,7 +36,7 @@ export default {};
 	padding-bottom: 45px;
 	padding-top: 33px;
 }
-h1 {
+.about h1 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 25px;
