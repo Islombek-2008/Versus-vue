@@ -1,24 +1,40 @@
 <template>
 	<header>
-		<nav>
-			<a href="#"><h1>VERSUS</h1></a>
-			<ul>
-				<li class="navitem">
-					<a href="#" class="navlink"
-						><router-link to="/">Portfolio</router-link></a
-					>
-				</li>
-				<li class="navitem">
-					<a href="#" class="navlink"
-						><router-link to="/about">About</router-link></a
-					>
-				</li>
-				<li class="navitem">
-					<a href="#" class="navlink"
-						><router-link to="/contact">CONTACT</router-link></a
-					>
-				</li>
-			</ul>
+		<nav class="navbar navbar-expand-lg p-3">
+			<div class="container">
+				<a href="#"><h1>VERSUS</h1></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="menu my-lg-0">
+						<li>
+							<a href="#" class="navlink"
+								><router-link to="/">Portfolio</router-link></a
+							>
+						</li>
+						<li class="navitem">
+							<a href="#" class="navlink"
+								><router-link to="/about">About</router-link></a
+							>
+						</li>
+						<li class="navitem">
+							<a href="#" class="navlink"
+								><router-link to="/contact">CONTACT</router-link></a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 		<div class="header-info">
 			<h1>We build beautiful web and mobile apps. {{ alik }}</h1>
@@ -46,15 +62,15 @@ header {
 /* navbar */
 nav {
 	width: 100%;
-	height: 70px;
-	position: fixed;
-	top: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+	position: fixed !important;
+	top: 0 !important;
 	background-color: black;
-	opacity: 0.5;
+	opacity: 0.9;
 	z-index: 1;
+}
+.collapse {
+	display: flex;
+	justify-content: flex-end;
 }
 nav a h1 {
 	font-weight: 400;

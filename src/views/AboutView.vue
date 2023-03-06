@@ -17,11 +17,7 @@
 				corrupti blanditiis aspernatur aliquam esse veritatis molestiae est
 				corporis voluptatum, vero labore tenetur explicabo numquam adipisci
 				impedit saepe cum et. Voluptatem placeat ipsam similique suscipit animi
-				culpa minima repellat quod, doloremque mollitia aperiam quo quis, nihil
-				exercitationem pariatur fuga laboriosam, repudiandae eligendi! Minima
-				asperiores, quod non officiis repudiandae doloremque, laudantium neque
-				dolorum ipsam nemo facilis ipsa est magni accusamus animi veniam omnis
-				odit distinctio consequuntur aliquid tempora vero eligendi saepe quis?
+				culpa minima repellat quod.
 			</p>
 		</div>
 	</div>
@@ -50,6 +46,7 @@ export default {};
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: 10px;
+	align-items: center;
 }
 img {
 	width: 370px;
@@ -59,7 +56,6 @@ p {
 	width: 450px;
 	font-size: 18px;
 	color: azure;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	line-height: 20px;
 	margin: 10px;
 }

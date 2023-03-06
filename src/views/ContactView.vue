@@ -1,6 +1,6 @@
 <template>
 	<div class="contact">
-		<h1>VERSUS Contact</h1>
+		<h4>VERSUS Contact</h4>
 		<div class="contact-info">
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8_fKedi-1qOaG57RViUVq-uJ914blT9a2A&usqp=CAU"
@@ -8,7 +8,7 @@
 			/>
 			<contact>
 				<ul class="cantact-link">
-					<li class="cantact-menu"><span>Cantact:</span></li>
+					<li class="cantact-menu"><span>Contact:</span></li>
 					<hr />
 					<li>EMAIL : <span> in2008@gmail.com</span></li>
 					<li>INST : <span> in2008</span></li>
@@ -31,7 +31,7 @@ export default {};
 	padding-top: 33px;
 	background-color: #222222;
 }
-h1 {
+h4 {
 	display: flex;
 	justify-content: center;
 	color: #fff;
