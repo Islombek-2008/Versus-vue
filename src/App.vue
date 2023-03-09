@@ -32,6 +32,11 @@
 								><router-link to="/contact">CONTACT</router-link></a
 							>
 						</li>
+						<li class="navitem">
+							<a href="#" class="navlink"
+								><router-link to="/statistika">Statistika</router-link></a
+							>
+						</li>
 					</ul>
 				</div>
 			</div>
