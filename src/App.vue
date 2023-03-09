@@ -37,6 +37,7 @@
 								><router-link to="/statistika">Statistika</router-link></a
 							>
 						</li>
+						<a href="">salom</a>
 					</ul>
 				</div>
 			</div>
